@@ -1,0 +1,13 @@
+config {
+    type: "view",
+    schema: "dataform",
+    materialized: true,
+    tags: ["weekly"],
+}
+
+SELECT
+    DISTINCT drink_id,
+    drink_name,
+    drink_type
+FROM
+    ${ref("drinks")}

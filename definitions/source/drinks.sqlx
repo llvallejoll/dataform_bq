@@ -1,0 +1,6 @@
+config {
+    type: "declaration",
+    database: "dataflow-course-202510",
+    schema: "raw",
+    name: "drinks"
+}

@@ -1,0 +1,22 @@
+=========VARIABLES EN DATAFORM==========
+========================================
+Para crear una variable en la configuración de un proyecto de Dataform, 
+debes agregar el siguiente código en la sección "vars" de tu archivo "workflow_settings.yaml":
+
+vars:
+    execution_date: "2023-06-01"
+
+Luego, mediante la linea de comandos en la terminal, 
+puedes llamar a la variable de la siguiente manera:
+
+dataform run --vars=execution_date='2023-06-01'
+
+Si son mas de dos variables a llamar en la terminal, 
+puedes usar la siguiente sintaxis:
+
+dataform run --vars=execution_date='2023-06-01', variable_2='texto_generico'
+
+
+=====INCREMENTAL MODELS EN DATAFORM===
+=======================================
+

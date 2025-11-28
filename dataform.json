@@ -1,0 +1,12 @@
+{
+    "warehouse": "bigquery",
+    "defaultDatabase": "dataflow-course-202510",
+    "defaultLocation": "EU",
+    "defaultSchema": "raw",
+    "assertionSchema": "dataform_assertions",
+    
+    "vars":{
+        "execution_date": "2025-05-02",
+        "execution_timestamp": "2025-05-02T00:00:00"
+    }
+}
