@@ -1,4 +1,0 @@
-defaultProject: dataflow-course-202510
-defaultDataset: dataform
-defaultAssertionDataset: dataform_assertions
-dataformCoreVersion: 3.0.26

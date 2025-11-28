@@ -1,0 +1,12 @@
+config {
+    type: "view",
+    schema: "raw"
+}
+
+SELECT
+    DISTINCT drink_id,
+    drink_name,
+    drink_type,
+    '${dataform.projectConfig.vars.execution_date}' AS execution_date
+FROM
+    ${ref("drinks")}
